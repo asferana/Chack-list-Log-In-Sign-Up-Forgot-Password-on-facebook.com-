@@ -1,0 +1,26 @@
+Smoke - LogIn - Verify if a user will be able to login with a valid username and valid password.
+Smoke - LogIn - Verify if a user cannot login with a valid username and an invalid password.
+Smoke - LogIn - 	Verify if a user cannot log in with a valid phone number and an invalid password.
+Smoke - LogIn - Verify the messages for invalid login.
+Smoke - Forgot Password - Verify the ‘Forgot Password’ functionality.
+Smoke - LogIn - Verify if the data in password field is either visible as asterisk or bullet signs.
+Smoke - LogIn - Verify the login page and all its controls in different browsers
+Smoke - Sign Up - Don’t enter an email address or phone number & just click the Next button. Verify if the user will get the correct message or if the blank field will get highlighted.
+Smoke - Sign Up - Enter the invalid email address & click the Next button. Verify if the user will get the correct message.
+Smoke - Sign Up - Enter an invalid phone number & click the Next button. Verify if the user will get the correct message.
+
+Critical pass - LogIn - Verify the login page for both, when the field is blank and Submit button is clicked.
+Critical pass - Forgot Password - Verify if a user is able to login with a new password only after he/she has changed the password.
+Critical pass - LogIn - Verify if the login page allows to log in simultaneously with different credentials in a different browser.
+Critical pass - LogIn - Verify if the ‘Enter’ key of the keyboard is working correctly on the login page.
+Critical pass - LogIn - Verify if a user cannot enter the characters more than the specified range in each field (Username and Password).
+Critical pass - LogIn - Verify the login page by pressing ‘Back button’ of the browser. It should not allow you to enter into the system once you log out.
+Critical pass - LogIn - Verify if a user should not be allowed to log in with different credentials from the same browser at the same time.
+Critical pass - LogIn - Verify if a user should be able to login with the same credentials in different browsers at the same time.
+
+
+Extendet - LogIn - Verify the time taken to log in with a valid username and password.
+Extendet - LogIn - Forgot Password - Verify if the font, text color, and color coding of the Login page is as per the standard.
+Extendet - Verify the timeout functionality of the login session.
+Extendet - Verify the Login page against SQL injection attack.
+Extendet - Verify the implementation of SSL certificate.
